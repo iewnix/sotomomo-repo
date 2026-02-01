@@ -2,14 +2,149 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>My GitHub Pages Site</title>
+    <title>#520 Subscription Renewal</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
+
   </head>
   <body>
+  <div class="runner-banner" aria-label="Scrolling banner">
+  <div class="runner-track">
+    <!-- Set 1 -->
+    <img src="totomite.jpg" alt="minion">
+    <img src="lawson.png" alt="minion">
+    <img src="louis.png" alt="minion">
+    <img src="frog.jpg" alt="minion">
+    <img src="nailong.PNG" alt="minion">
+    <img src="louis.png" alt="minion">
+    <img src="frogbike.png" alt="minion">
+    <img src="snowman.JPG" alt="minion">
 
-    <h1>Hello 👋</h1>
-    <p>This is my first live site.</p>
+    <!-- Set 2 (duplicate for seamless loop) -->
+    <img src="totomite.jpg" alt="minion">
+    <img src="lawson.png" alt="minion">
+    <img src="louis.png" alt="minion">
+    <img src="frog.jpg" alt="minion">
+    <img src="nailong.PNG" alt="minion">
+    <img src="louis.png" alt="minion">
+    <img src="frogbike.png" alt="minion">
+    <img src="snowman.JPG" alt="minion">
+    
+    <img src="totomite.jpg" alt="minion">
+    <img src="lawson.png" alt="minion">
+    <img src="louis.png" alt="minion">
+    <img src="frog.jpg" alt="minion">
+    <img src="nailong.PNG" alt="minion">
+    <img src="louis.png" alt="minion">
+    <img src="frogbike.png" alt="minion">
+    <img src="snowman.JPG" alt="minion">
+  </div>
 
-    <img src="the-minion.gif" alt="A cat GIF">
+  </div>
+    <h1>03.02.2026</h1>
+    <h1>hello ChillBao ᕙ( •̀ ᗜ •́ )ᕗ, </h1>
+    <div class="center-stack">
 
+    <p> happy 2nd anniversary to us!</p>
+    <p> here is to many more memories and many many more happy years ahead together ^__^ </p>
+    <img src="the-minion.gif" alt="Minion GIF">
+    <p>with love,</p>
+    <p1>LBao (・ω・)ノ</p1>
+
+        <video
+  src="maple.mp4"
+  autoplay
+  loop
+  muted
+  playsinline
+  class="gif-video">
+  </video>
+  <p> and many more years of MPS 0__0</p>
+    </div>
   </body>
+
+  <style>
+  h1 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    line-height: 0.6;
+  }
+
+  p {
+    font-family: 'Source Code', monospace;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  p1 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .center-stack {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+  img {
+      width: 330px;
+    }
+
+  .center-stack p {
+      margin: 0;
+    }
+
+  .center-stack img {
+      margin: 0px 0;
+    }
+
+  .runner-banner {
+  width: 100%;
+  height: 90px;          /* banner height */
+  overflow: hidden;
+  margin: 0;
+  border-bottom: 1px solid rgba(0,0,0,0.12);
+  }
+
+  .runner-track {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 15px;             /* spacing between images */
+  padding: 0 18px;
+
+  /* The animation */
+  animation: runner 50s linear infinite;
+  will-change: transform;
+  }
+
+  .runner-track img {
+  height: 70px;          /* image height inside banner */
+  width: auto;
+  flex: 0 0 auto;
+  }
+
+/* Move the track left by half its length (because we duplicated it) */
+  @keyframes runner {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+  }
+
+  .gif-video {
+  width: 350px;
+  height: auto;
+  display: block;
+}
+
+  
+  </style>
+
+</body>
 </html>
